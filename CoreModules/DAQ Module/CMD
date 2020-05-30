@@ -1,0 +1,24 @@
+DAQ   >
+AddDAQ
+ChannelName
+Start
+Stop
+Wait
+AnalogIn
+AnalogInWaveForm
+AnalogOut
+AnalogOutWaveForm
+WaveFormLoad
+WaveFormSave
+WaveFormGenerate
+Calculate
+MergeWaveForm
+Filter
+CompareAvgInRange
+CompareMaxMinInRange
+CompareCoverBy
+Display2User
+Report(AddWaveForm)
+Report(AddRecord)
+Report(Output)
+ReportViewer

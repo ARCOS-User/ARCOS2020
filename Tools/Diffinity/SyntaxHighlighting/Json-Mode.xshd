@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- created for Diffinity in 2018 -->
+<SyntaxDefinition name="Json" extensions=".json" xmlns="http://icsharpcode.net/sharpdevelop/syntaxdefinition/2008">
+	<Color name="ParamName" foreground="Blue" />
+	<Color name="DigitValue" foreground="#FF7A7A7A" />
+	<Color name="StringValue" foreground="#FF7A7A7A" />
+
+	<RuleSet ignoreCase="false">
+		<Rule color="ParamName">
+			"+[^"]+"+(?=\s*\:)
+		</Rule>
+		<Span color="StringValue" multiline="true">
+			<Begin>
+				(?&lt;=:)\040"[^"]*
+			</Begin>
+			<End>"</End>
+		</Span>
+		<Rule color="StringValue">
+			"+[^"]+"+(?&lt;!:)
+		</Rule>
+		<Rule color="DigitValue">
+			\b0[xX][0-9a-fA-F]+|(\b\d+(\.[0-9]+)?|\.[0-9]+)([eE][+-]?[0-9]+)?
+		</Rule>
+		<Keywords color="DigitValue" >
+			<Word>true</Word>
+			<Word>false</Word>
+		</Keywords>
+	</RuleSet>
+</SyntaxDefinition>

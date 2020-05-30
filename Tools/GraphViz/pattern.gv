@@ -1,0 +1,26 @@
+digraph structs {
+/*dot demo-1.gv -T svg -o demo-1.svg*/
+    __START__ [shape=none 
+	                   label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"> 
+							 <TR><TD PORT="L"></TD><TD PORT="D"></TD><TD PORT="R"></TD></TR>
+						     <TR><TD PORT="U"></TD><TD PORT="V"><IMG SRC="__START__.PNG"/></TD><TD PORT="W"></TD></TR>
+	                         <TR><TD PORT="T"></TD><TD PORT="N"></TD><TD PORT="F"></TD></TR>
+							 </TABLE>>];
+    AutoLabel_0 [shape=none 
+	                   label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"> 
+							 <TR><TD PORT="L"></TD><TD PORT="D"></TD><TD PORT="R"></TD></TR>
+						     <TR><TD PORT="U"></TD><TD PORT="V"><IMG SRC="AutoLabel_0.PNG"/></TD><TD PORT="W"></TD></TR>
+	                         <TR><TD PORT="T"></TD><TD PORT="N"></TD><TD PORT="F"></TD></TR>
+							 </TABLE>>];
+    test2 [shape=none 
+	                   label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0"> 
+							 <TR><TD PORT="L"></TD><TD PORT="D"></TD><TD PORT="R"></TD></TR>
+						     <TR><TD PORT="U"></TD><TD PORT="V"><IMG SRC="test2.PNG"/></TD><TD PORT="W"></TD></TR>
+	                         <TR><TD PORT="T"></TD><TD PORT="N"></TD><TD PORT="F"></TD></TR>
+							 </TABLE>>];
+    __START__:T -> test2:D [ color=green taillabel="T" fontcolor=green labelangle=-15 labeldistance = 2];
+    __START__:F -> AutoLabel_0:D [ color=red   taillabel="F" fontcolor=red   labelangle=15  labeldistance = 2];
+	AutoLabel_0:F -> test2:D [ color=red   taillabel="F" fontcolor=red   labelangle=15  labeldistance = 2];
+	/*AutoLabel_0:F -> test2:D [ color=blue  taillabel=" " fontcolor=blue  labelangle=-15 labeldistance = 2];*/
+	/*AutoLabel_0:T -> AutoLabel_0:L [ color=green taillabel=" " fontcolor=green labelangle=-15 labeldistance = 2];*/
+}

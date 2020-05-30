@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<!-- syntaxdefinition for TeX document 2001 by Mike Krueger (gleaned from Jedit) -->
+<!-- adjusted for Diffinity in 2018 -->
+
+<SyntaxDefinition name="TeX" extensions=".tex">
+	<Digits name="Digits" italic="false"/>
+	
+	<RuleSets>
+		<RuleSet ignorecase="false">
+			<Delimiters>&amp;~!@%^*()-+=|\#/{}[]:;"'&lt;&gt; , .?</Delimiters>
+			<Span name="LineComment" color="#FF008600" stopateol="true">
+				<Begin>%</Begin>
+			</Span>
+			<Span name="MathMode" rule="MathMode" color="#FF7A7A7A" stopateol="false">
+				<Begin>$$</Begin>
+				<End>$$</End>
+			</Span>
+			<Span name="LatexMathMode" rule="MathMode" color="#FF7A7A7A" stopateol="false">
+				<Begin>\[</Begin>
+				<End>\]</End>
+			</Span>
+			
+			<!-- \... commands -->
+			<MarkFollowing markmarker="true" color="Blue">\</MarkFollowing>
+			
+			<!-- some commands must be handled specially -->
+			<KeyWords name="Keyword1" color="Blue">
+				<Key word="\$" />
+				<Key word="\\" />
+				<Key word="\%" />
+			</KeyWords>
+			<KeyWords name="KeyWords2" color="#FF36368C">
+				<Key word=")" />
+				<Key word=")" />
+				<Key word="{" />
+				<Key word="}" />
+				<Key word="[" />
+				<Key word="]" />
+				<Key word="=" />
+				<Key word="!" />
+				<Key word="+" />
+				<Key word="-" />
+				<Key word="/" />
+				<Key word="*" />
+				<Key word="&gt;" />
+				<Key word="&lt;" />
+				<Key word="&amp;" />
+				<Key word="|" />
+				<Key word="^" />
+				<Key word="~" />
+				<Key word="." />
+				<Key word="," />
+				<Key word=";" />
+				<Key word="?" />
+				<Key word=":" />
+				<Key word="'" />
+			<!--<Key word=""" />-->
+				<Key word="`" />
+			</KeyWords>
+		</RuleSet>
+		
+		<RuleSet name="MathMode" ignorecase="false">
+			<Delimiters>&amp;~!@%^*()-+=|\#/{}[]:;"'&lt;&gt; , .?</Delimiters>
+			
+			<Span name="LineComment" color="#FF008600" stopateol="true">
+				<Begin>%</Begin>
+			</Span>
+			
+			<!-- \... commands -->
+			<MarkFollowing markmarker="true" color="Blue">\</MarkFollowing>
+
+			<KeyWords name="KeyWords2" color="#FF36368C">
+				<Key word=")" />
+				<Key word=")" />
+				<Key word="{" />
+				<Key word="}" />
+				<Key word="[" />
+				<Key word="]" />
+				<Key word="=" />
+				<Key word="!" />
+				<Key word="+" />
+				<Key word="-" />
+				<Key word="/" />
+				<Key word="*" />
+				<Key word="&gt;" />
+				<Key word="&lt;" />
+				<Key word="&amp;" />
+				<Key word="|" />
+				<Key word="^" />
+				<Key word="~" />
+				<Key word="." />
+				<Key word="," />
+				<Key word=";" />
+				<Key word="?" />
+				<Key word=":" />
+				<Key word="'" />
+	<!--	    <Key word=""" />-->
+				<Key word="`" />
+			</KeyWords>
+		</RuleSet>
+	</RuleSets>
+</SyntaxDefinition>

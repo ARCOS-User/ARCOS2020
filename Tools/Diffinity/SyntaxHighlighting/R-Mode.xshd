@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!-- created for Diffinity in 2018 -->
+<SyntaxDefinition name="R" extensions=".r" xmlns="http://icsharpcode.net/sharpdevelop/syntaxdefinition/2008">
+	<Color name="Comment" foreground="#FF008600" exampleText="# comment" />
+	<Color name="String" foreground="#FFF166C2" exampleText="name = 'abc'"/>
+	<Color name="MethodCall" foreground="#FF36368C" exampleText="def Hello()"/>
+	<Color name="Keywords" foreground="Blue" exampleText="if"/>
+
+	<Property name="DocCommentMarker" value="///" />
+
+	<RuleSet>
+		<Span color="Comment">
+			<Begin>\#</Begin>
+		</Span>
+
+		<Span color="String">
+			<Begin>"</Begin>
+			<End>"</End>
+			<RuleSet>
+				<Span begin="\\" end="."/>
+			</RuleSet>
+		</Span>
+		<Span color="String">
+			<Begin>'</Begin>
+			<End>'</End>
+			<RuleSet>
+				<Span begin="\\" end="."/>
+			</RuleSet>
+		</Span>
+
+		<Keywords color="Keywords">
+			<Word>if</Word>
+			<Word>else</Word>
+			<Word>repeat</Word>
+			<Word>while</Word>
+			<Word>function</Word>
+			<Word>for</Word>
+			<Word>in</Word>
+			<Word>next</Word>
+			<Word>break</Word>
+			<Word>TRUE</Word>
+			<Word>FALSE</Word>
+			<Word>NULL</Word>
+			<Word>Inf</Word>
+			<Word>NaN</Word>
+			<Word>NA</Word>
+			<Word>NA_integer_</Word>
+			<Word>NA_real_</Word>
+			<Word>NA_complex_</Word>
+			<Word>NA_character_</Word>
+		</Keywords>
+
+		<Rule color="MethodCall">
+			\b
+			[\d\w_]+  # an identifier
+			(?=\s*\() # followed by (
+		</Rule>
+	</RuleSet>
+</SyntaxDefinition>

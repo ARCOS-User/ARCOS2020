@@ -1,0 +1,1 @@
+Device=XXXX,OutStart=P0.0,OutPorts=16,InStart=P2.0,InPorts=16

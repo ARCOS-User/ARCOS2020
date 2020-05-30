@@ -1,0 +1,1 @@
+Device=Dev1/port0/line0:7,OutStart=,OutPorts=,InStart=P2.0,InPorts=8

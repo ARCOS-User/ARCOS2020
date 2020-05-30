@@ -1,0 +1,1 @@
+Device=Ring:ID:{20M,10M,5M,2.5M},OutStart=P0.0,OutPorts=16,InStart=P2.0,InPorts=16

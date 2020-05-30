@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<!-- adjusted for Diffinity in 2018 -->
+<SyntaxDefinition name="ARCOS" extensions=".init;.pro" xmlns="http://icsharpcode.net/sharpdevelop/syntaxdefinition/2008">
+	<Color name="Comment" foreground="#8A2BE2" exampleText="# comment" />
+	<Color name="String" foreground="Blue" exampleText="name = 'abc'"/>
+	<Color name="MethodCall" foreground="#FF36368C" exampleText="def Hello()"/>
+	<Color name="Keywords" foreground="Red" exampleText="if"/>
+	<Color name="Subthread" foreground="Green" exampleText="name = 'abc'"/>
+	<Property name="DocCommentMarker" value="///" />
+
+	<RuleSet>
+		<Span color="String" multiline="true">
+			<Begin>'''</Begin>
+			<End>'''</End>
+		</Span>
+		<Span color="String" multiline="true">
+			<Begin>"""</Begin>
+			<End>"""</End>
+		</Span>
+
+		<Span color="String">
+			<Begin>"</Begin>
+			<End>"</End>
+			<RuleSet>
+				<Span begin="\\" end="."/>
+			</RuleSet>
+		</Span>
+		<Span color="String">
+			<Begin>'</Begin>
+			<End>'</End>
+			<RuleSet>
+				<Span begin="\\" end="."/>
+			</RuleSet>
+		</Span>
+		<Keywords color="Comment">
+			<Word>System@#Commet--->></Word>
+		</Keywords>
+		<Keywords color="String">
+			<Word>::</Word>
+		</Keywords>		
+		<Keywords color="Subthread">
+			<Word>Thread@SubThreadStart</Word>
+			<Word>Thread@SubThreadEnd</Word>
+			<Word>Thread@ForeachStart</Word>
+			<Word>Thread@ForeachLoop</Word>
+		</Keywords>		
+		<Keywords color="Keywords">
+			<Word>Thread@Thread Label</Word>
+			<Word>Thread@Thread Jump</Word>
+			<Word>Thread@Thread Repeat</Word>
+			<Word>Thread@Thread Stop</Word>
+			<Word>Thread@Thread GoOn</Word>
+			<Word>Thread@Thread Call</Word>
+			<Word>Thread@Thread Start</Word>
+			<Word>Thread@Thread Return</Word>
+			<Word>Thread@ReturnNext</Word>
+			<Word>Thread@RunNextCMD</Word>
+			<Word>Thread@SkipNextCMD</Word>
+			<Word>Thread@ErrorRetry</Word>
+			<Word>for</Word>
+			<Word>from</Word>
+			<Word>global</Word>
+			<Word>if</Word>
+			<Word>import</Word>
+			<Word>in</Word>
+			<Word>is</Word>
+			<Word>lambda</Word>
+			<Word>None</Word>
+			<Word>nonlocal</Word>
+			<Word>not</Word>
+			<Word>or</Word>
+			<Word>pass</Word>
+			<Word>print</Word>
+			<Word>raise</Word>
+			<Word>return</Word>
+			<Word>True</Word>
+			<Word>try</Word>
+			<Word>while</Word>
+			<Word>with</Word>
+			<Word>yield</Word>
+			<Word>async</Word>
+			<Word>await</Word>
+		</Keywords>
+
+		<Rule color="MethodCall">
+			\b
+			[\d\w_]+  # an identifier
+			(?=\s*\() # followed by (
+		</Rule>
+	</RuleSet>
+</SyntaxDefinition>

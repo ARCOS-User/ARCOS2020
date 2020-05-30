@@ -1,0 +1,26 @@
+Motion   >
+AddMotor
+SetTool
+Home
+Go
+WaitMotor
+Stop
+GoPoint
+GoSafe
+GoPallet
+GetPos
+GetState
+ClearPath
+AddPath
+AddPath(Pallet)
+RunPath
+WaitPathIndex
+WaitPosition
+Config
+Go(SingleAxis)
+GoPoint(SingleAxis)
+GoPallet(SingleAxis)
+ExtraCMD
+SetDO
+GetDI
+GetDO

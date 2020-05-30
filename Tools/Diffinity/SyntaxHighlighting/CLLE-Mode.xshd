@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!-- adjusted for Diffinity in 2018 -->
+<SyntaxDefinition name="CLLE" extensions=".cl;.clle" xmlns="http://icsharpcode.net/sharpdevelop/syntaxdefinition/2008">
+	<Color name="Comment" foreground="#FF008600" />
+	<Color name="Digits" foreground="#FF7A7A7A" />
+	<Color name="Directives" foreground="#FF36368C" />
+	<Color name="String" foreground="#FFF166C2" />
+	<Color name="Vars" foreground="Blue" />
+	<Color name="Text" foreground="#FF7A7A7A" />
+
+	<RuleSet ignoreCase="true">
+		<Span color="Comment" begin="//" />
+
+		<Span color="String"  multiline="true">
+			<Begin>'</Begin>
+			<End>'</End>
+		</Span>
+
+		<Span color="Comment" multiline="true">
+			<Begin>/\*</Begin>
+			<End>\*/</End>
+		</Span>
+
+		<Rule color="Digits">
+			\b0[xX][0-9a-fA-F]+  # hex number
+			|    \b
+			(    \d+(\.[0-9]+)?   #number with optional floating point
+			|    \.[0-9]+         #or just starting with floating point
+			)
+			([eE][+-]?[0-9]+)? # optional exponent
+		</Rule>
+
+		<Rule color="Text">
+			(\w+)
+		</Rule>
+	
+		<Rule color="Vars">
+			\B[\%\&amp;]\w+
+		</Rule>
+
+		<Rule color="Directives">
+			\B\*\w+
+		</Rule>
+	</RuleSet>
+</SyntaxDefinition> 

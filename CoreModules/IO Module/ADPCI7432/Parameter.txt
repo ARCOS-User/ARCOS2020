@@ -1,0 +1,1 @@
+Device=0,OutStart=P0.0,OutPorts=32,InStart=P4.0,InPorts=32
