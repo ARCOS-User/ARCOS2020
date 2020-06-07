@@ -12,3 +12,5 @@ AddIODriver
 SetPortName
 InitIOPort
 ForceUpdateIO
+Exchange
+Shift
