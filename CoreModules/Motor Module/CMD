@@ -8,6 +8,7 @@ Stop
 GoPoint
 GoSafe
 GoPallet
+GoSafe(Pallet)
 GetPos
 GetState
 ClearPath
