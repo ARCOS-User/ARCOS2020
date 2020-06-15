@@ -11,6 +11,10 @@ SubThreadEnd
 SubThreadWait
 SubThreadSuspend
 SubThreadScript
+If
+ElseIf
+Else
+EndIf
 ForeachStart
 ForeachLoop
 ForeachBreak
