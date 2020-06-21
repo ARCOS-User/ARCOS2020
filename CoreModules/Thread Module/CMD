@@ -4,13 +4,13 @@ Thread Jump
 Thread Repeat
 Thread Stop
 Thread GoOn
+Thread Call
 RunNextCMD
 SkipNextCMD
 SubThreadStart
 SubThreadEnd
 SubThreadWait
 SubThreadSuspend
-SubThreadScript
 If
 ElseIf
 Else
@@ -26,9 +26,10 @@ Return
 Suspend
 Resume
 ErrorRetry
-MutePopupMessage
+SubThreadScript
 KeySectionLock
 KeySectionUnLock
+MutePopupMessage
 Thread Start
 Thread Wait
 Thread Suspend
