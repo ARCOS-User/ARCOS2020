@@ -1,3 +1,4 @@
+TabControl : MainTab: [User Tab,Capture,IMAQ Array,Point&Path,Modules Info,Threads,Parameter&Variable,WaveForm,Panel CMD,Remote]
 Boolean : User Tab->Load File: [Load]
 Boolean : User Tab->Stop: [ARCOS
 STOP]
