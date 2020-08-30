@@ -5,6 +5,46 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Item Name="AES" Type="Folder">
+		<Item Name="Links" Type="Folder">
+			<Item Name="AES Wiki-NL" Type="Hyperlink"/>
+			<Item Name="AES-NIST" Type="Hyperlink">
+				<Property Name="NI.Address" Type="Str">http://csrc.nist.gov/archive/aes/rijndael/wsdindex.html</Property>
+			</Item>
+			<Item Name="AES-test overview" Type="Hyperlink">
+				<Property Name="NI.Address" Type="Str">http://csrc.nist.gov/groups/STM/cavp/index.html#01</Property>
+			</Item>
+			<Item Name="Modes" Type="Hyperlink">
+				<Property Name="NI.Address" Type="Str">http://csrc.nist.gov/publications/nistpubs/800-38a/sp800-38a.pdf</Property>
+			</Item>
+			<Item Name="Spec" Type="Hyperlink">
+				<Property Name="NI.Address" Type="Str">http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf</Property>
+			</Item>
+		</Item>
+		<Item Name="Sub" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="AES-KeyExpansion.vi" Type="VI" URL="../Sub/AES-KeyExpansion.vi"/>
+			<Item Name="AES-InvCipher-BLOCK.vi" Type="VI" URL="../Sub/AES-InvCipher-BLOCK.vi"/>
+			<Item Name="MC-BoxLookup.vi" Type="VI" URL="../Sub/MC-BoxLookup.vi"/>
+			<Item Name="InvMC-Multiplication.vi" Type="VI" URL="../Sub/InvMC-Multiplication.vi"/>
+			<Item Name="MC-Multiplication.vi" Type="VI" URL="../Sub/MC-Multiplication.vi"/>
+			<Item Name="RconLookup.vi" Type="VI" URL="../Sub/RconLookup.vi"/>
+			<Item Name="S-BoxLookup.vi" Type="VI" URL="../Sub/S-BoxLookup.vi"/>
+			<Item Name="S-BoxLookupArray1D.vi" Type="VI" URL="../Sub/S-BoxLookupArray1D.vi"/>
+			<Item Name="S-BoxLookupArray.vi" Type="VI" URL="../Sub/S-BoxLookupArray.vi"/>
+			<Item Name="InvS-BoxLookup.vi" Type="VI" URL="../Sub/InvS-BoxLookup.vi"/>
+			<Item Name="InvS-BoxLookupArray.vi" Type="VI" URL="../Sub/InvS-BoxLookupArray.vi"/>
+			<Item Name="AES-Cipher-BLOCK.vi" Type="VI" URL="../Sub/AES-Cipher-BLOCK.vi"/>
+		</Item>
+		<Item Name="Tools" Type="Folder">
+			<Item Name="StringToU8.vi" Type="VI" URL="../Sub/StringToU8.vi"/>
+			<Item Name="U8ToString.vi" Type="VI" URL="../Sub/U8ToString.vi"/>
+		</Item>
+		<Item Name="AES-Cipher-text.vi" Type="VI" URL="../AES-Cipher-text.vi"/>
+		<Item Name="AES-InvCipher-text.vi" Type="VI" URL="../AES-InvCipher-text.vi"/>
+		<Item Name="AES-Modes.ctl" Type="VI" URL="../AES-Modes.ctl"/>
+	</Item>
 	<Item Name="HMAC" Type="Folder">
 		<Item Name="HMAC.vi" Type="VI" URL="../HMAC.vi"/>
 	</Item>

@@ -42,3 +42,4 @@ VariableLoad
 Publish
 Subscribe
 Flush
+KeyValue
