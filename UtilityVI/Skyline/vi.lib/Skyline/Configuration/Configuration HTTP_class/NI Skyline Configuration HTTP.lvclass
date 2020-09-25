@@ -104,7 +104,7 @@ Use &lt;B&gt;Open Configuration&lt;/B&gt; to initialize an HTTP or AMQP connecti
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">268972560</Property>
 	</Item>
-	<Item Name="configuration.mnu" Type="Document" URL="../../../../../../../../../../C/Program Files/National Instruments/LabVIEW 2020/menus/Categories/Data Communication/_skyline/configuration.mnu"/>
+	<Item Name="configuration.mnu" Type="Document" URL="../../../../../menus/Categories/Data Communication/_skyline/configuration.mnu"/>
 	<Item Name="Obtain Default Configuration.vi" Type="VI" URL="../Obtain Default Configuration.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%&amp;!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%B!=!!?!!!H*5Z*)&amp;.L?7RJ&lt;G5A1W^O:GFH&gt;8*B&gt;'FP&lt;C")6&amp;21,GRW9WRB=X-!&amp;EB56&amp;!A9W^O:GFH&gt;8*B&gt;'FP&lt;C"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!1#!!"Y!!!.#!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!!!!!!!!!1!(!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

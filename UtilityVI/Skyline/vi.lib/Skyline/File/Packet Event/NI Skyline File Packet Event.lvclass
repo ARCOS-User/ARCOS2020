@@ -59,7 +59,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
 	</Item>
-	<Item Name="nifileadvanced.mnu" Type="Document" URL="/&lt;menus&gt;/Categories/Data Communication/_skyline/_nifile/nifileadvanced.mnu"/>
+	<Item Name="nifileadvanced.mnu" Type="Document" URL="../../../../../../../../../../../../ARCOS-Code2020/UtilityVI/Skyline/menus/Categories/Data Communication/_skyline/_nifile/nifileadvanced.mnu"/>
 	<Item Name="Packet Events.ctl" Type="VI" URL="../Packet Events.ctl">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!-!!!!!1!%!!!!!1!!!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

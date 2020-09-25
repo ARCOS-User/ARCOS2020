@@ -38,7 +38,7 @@ Use &lt;B&gt;Open Configuration&lt;/B&gt; to initialize an HTTP or AMQP connecti
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 	</Item>
-	<Item Name="configuration.mnu" Type="Document" URL="/&lt;menus&gt;/Categories/Data Communication/_skyline/configuration.mnu"/>
+	<Item Name="configuration.mnu" Type="Document" URL="../../../../../../../../../../../../ARCOS-Code2020/UtilityVI/Skyline/menus/Categories/Data Communication/_skyline/configuration.mnu"/>
 	<Item Name="Open Configuration.vi" Type="VI" URL="../Open Configuration.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0*8*/H?!!%!!!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

@@ -74,7 +74,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 	</Item>
-	<Item Name="nimessage.mnu" Type="Document" URL="/&lt;menus&gt;/Categories/Data Communication/_skyline/nimessage.mnu"/>
+	<Item Name="nimessage.mnu" Type="Document" URL="../../../../../../../../../../../../ARCOS-Code2020/UtilityVI/Skyline/menus/Categories/Data Communication/_skyline/nimessage.mnu"/>
 	<Item Name="Open (HTTP).vi" Type="VI" URL="../Open (HTTP).vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%V!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!B(UZ*)&amp;.L?7RJ&lt;G5A476T=W&amp;H:3")6&amp;21,GRW9WRB=X-!$WVF=X.B:W5A=W6T=WFP&lt;A!_1(!!(A!!*S6/33"4;XFM;7ZF)%.P&lt;G:J:X6S982J&lt;WYA3&amp;255#ZM&gt;G.M98.T!!VD&lt;WZG;7&gt;V=G&amp;U;7^O!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!'!!=!"!!%!!1$!!"Y!!!.#!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!!#!!!!!I!!!!!!!!!!!!!!!!!!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

@@ -845,5 +845,5 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1074278912</Property>
 		</Item>
 	</Item>
-	<Item Name="nitag.mnu" Type="Document" URL="/&lt;menus&gt;/Categories/Data Communication/_skyline/nitag.mnu"/>
+	<Item Name="nitag.mnu" Type="Document" URL="../../../../../../../../../../../../../ARCOS-Code2020/UtilityVI/Skyline/menus/Categories/Data Communication/_skyline/nitag.mnu"/>
 </LVClass>

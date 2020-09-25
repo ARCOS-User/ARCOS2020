@@ -158,5 +158,5 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1074278912</Property>
 	</Item>
-	<Item Name="nimessage.mnu" Type="Document" URL="../../../../../../../../../../C/Program Files/National Instruments/LabVIEW 2020/menus/Categories/Data Communication/_skyline/nimessage.mnu"/>
+	<Item Name="nimessage.mnu" Type="Document" URL="../../../../../menus/Categories/Data Communication/_skyline/nimessage.mnu"/>
 </LVClass>

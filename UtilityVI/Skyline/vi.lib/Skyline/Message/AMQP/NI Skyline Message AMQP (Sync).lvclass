@@ -204,5 +204,5 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
 	</Item>
-	<Item Name="nimessage.mnu" Type="Document" URL="/&lt;menus&gt;/Categories/Data Communication/_skyline/nimessage.mnu"/>
+	<Item Name="nimessage.mnu" Type="Document" URL="../../../../../../../../../../../../ARCOS-Code2020/UtilityVI/Skyline/menus/Categories/Data Communication/_skyline/nimessage.mnu"/>
 </LVClass>

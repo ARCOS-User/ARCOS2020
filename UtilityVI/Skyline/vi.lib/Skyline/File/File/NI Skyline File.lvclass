@@ -391,7 +391,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 	</Item>
-	<Item Name="nifile.mnu" Type="Document" URL="../../../../../../../../../../C/Program Files/National Instruments/LabVIEW 2020/menus/Categories/Data Communication/_skyline/nifile.mnu"/>
+	<Item Name="nifile.mnu" Type="Document" URL="../../../../../menus/Categories/Data Communication/_skyline/nifile.mnu"/>
 	<Item Name="Open.vi" Type="VI" URL="../Open.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%Z!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#B!=!!?!!!:&amp;UZ*)&amp;.L?7RJ&lt;G5A2GFM:3ZM&gt;G.M98.T!!2G;7RF!!"%1(!!(A!!*S6/33"4;XFM;7ZF)%.P&lt;G:J:X6S982J&lt;WYA15V25#ZM&gt;G.M98.T!"*"46&amp;1)'.P&lt;G:J:X6S982J&lt;WY!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%%!Q`````Q&gt;G;7RF)'FE!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"A!(!!1!"!!)!Q!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!A!!!!+!!!!!!!!!!!!!!%3!!!!!!%!#1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
