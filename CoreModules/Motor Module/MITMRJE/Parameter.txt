@@ -1,1 +1,1 @@
-COM=XX,ID=XX
+COM=X,ID=1
