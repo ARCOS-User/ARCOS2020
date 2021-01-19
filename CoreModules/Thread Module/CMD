@@ -29,6 +29,8 @@ ErrorRetry
 SubThreadScript
 KeySectionLock
 KeySectionUnLock
+TimeCriticalCheck
+TimeCriticalEnd
 MutePopupMessage
 Thread Start
 Thread Wait
